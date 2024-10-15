@@ -330,3 +330,70 @@ footer img {
         vertical-align: middle;
     }
 }
+
+@media (min-width: 1101px) {
+    #profileImgDiv {
+        height: 600px;
+        width: 550px;
+        transform: translateX(-55%);
+        margin-bottom: 6em;
+    }
+
+    #profileImgDiv img {
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #profileImgDiv span {
+        left: 23%;
+    }
+
+    #aboutText {
+        position: absolute;
+        bottom: 0;
+        transform: translate(40%, -55%);
+        z-index: -1;
+        width: 650px;
+        height: 250px;
+        padding: 60px 0;
+        padding-left: 30px;
+        background-color: rgb(247, 239, 239);
+        box-shadow: 0px 7px 15px -6px rgba(0,0,0,0.6);
+        -webkit-box-shadow: 0px 7px 15px -6px rgba(0,0,0,0.6);
+        -moz-box-shadow: 0px 7px 15px -6px rgba(0,0,0,0.6);;
+        display: block;
+    }
+
+    #aboutText span {
+        margin-left: 20px;
+        font-size: 35px;
+    }
+
+    #aboutText p {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    #aboutIcons {
+      display: none;
+    }
+
+    #aboutIconsDesktop {
+        display: flex;
+        justify-content: flex-end;
+        padding-right: 20px;
+    }
+
+    #aboutIconsDesktop svg {
+        height: 30px;
+        width: 30px;
+        margin: 20px 10px;
+    }
+
+    #projects h1 {
+        align-self: flex-start;
+        font-size: 38px;
+        margin-left: 10px;
+    }
+}
